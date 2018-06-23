@@ -1,13 +1,13 @@
 # SwiftMailer Transport for SendGrid API
 
-Implementation of [Swift_Transport interface](https://github.com/swiftmailer/swiftmailer/blob/master/lib/classes/Swift/Transport.php) for sending emails via [SanGrid API](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html).
+Implementation of [Swift_Transport interface](https://github.com/swiftmailer/swiftmailer/blob/master/lib/classes/Swift/Transport.php) for sending emails via [SendGrid API](https://sendgrid.com/docs/API_Reference/Web_API_v3/Mail/index.html).
 
 ### Installing
 
 The recommended way to install:
 
 ```
-$ composer require "wilczynski/sengrid-swiftmailer"
+$ composer require "wilczynski/sendgrid-swiftmailer"
 ```
 ## Usage
 
