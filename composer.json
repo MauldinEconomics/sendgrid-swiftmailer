@@ -1,0 +1,26 @@
+{
+    "name": "wilczynski/mailer",
+    "description": "Swift Transport implementation for sending mail through a SendGrid API.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcin Wilczyński",
+            "email": "marcin@fachowo.co"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "swiftmailer/swiftmailer": "^6.0",
+        "sendgrid/sendgrid": "^7.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*",
+        "mockery/mockery": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wilczynski\\Mailer\\": "src/"
+        }
+    }
+}
