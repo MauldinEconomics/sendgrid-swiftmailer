@@ -9,9 +9,9 @@ The recommended way to install:
 ```
 $ composer require "wilczynski/sengrid-swiftmailer"
 ```
-##Usage
+## Usage
 
-See thr [example](examples/example.php)
+See the [example](examples/example.php).
 
 ## Built With
 
@@ -20,9 +20,9 @@ See thr [example](examples/example.php)
 
 ## Test With
 
-* [PHPUnit](https://github.com/sebastianbergmann/phpunit) - The PHP Unit Testing framework.
+* [PHPUnit](https://github.com/sebastianbergmann/phpunit) - The PHP Unit Testing framework
 * [Mockery](https://github.com/mockery/mockery) - PHP mock object framework
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
