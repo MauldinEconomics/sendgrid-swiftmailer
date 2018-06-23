@@ -163,9 +163,8 @@ class SendGridSwiftTransport implements Swift_Transport
      *
      * @param Swift_Events_EventListener $plugin
      */
-    public function registerPlugin(
-        Swift_Events_EventListener $plugin
-    ) {
+    public function registerPlugin(Swift_Events_EventListener $plugin)
+    {
         $this->eventDispatcher->bindEventListener($plugin);
     }
 
